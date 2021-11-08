@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+ul li{
+    list-style-type: none;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
 }
@@ -47,6 +51,7 @@ nav{
     margin: 0 auto;
     background-color: white;
     z-index: 1;
+    border-bottom: 1px solid lightgray;
 }
 
 .logo{
@@ -115,7 +120,7 @@ nav{
 }
 
 .checkbox{
-    margin: 50px 0 20px
+    margin: 50px 0 40px
 }
 
 label{
@@ -123,12 +128,13 @@ label{
 }
 
 .table{
-    min-height: 1000px;
+    min-height: 1400px;
 }
 
 .col{
     border: 1px solid black;
     width: 30%;
+    min-height: 1200px;
 }
 
 .col-title{
@@ -174,3 +180,19 @@ label{
     margin: 0 auto;
     font-size: 23px
 }
+
+.line{
+    border-bottom: 1px solid lightgray;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.row a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.fa-check{
+    color: blue;
+}
+
