@@ -14,7 +14,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-.clear-fix{
+.clear-fix::after{
     content: "";
     display: table;
     clear: both;
@@ -59,7 +59,7 @@ nav{
     vertical-align: middle;
 }
 
-.menu, .menu2, .btn{
+ header .menu,header .menu2,header .btn{
     height: 70px;
     line-height: 70px;
 }
@@ -128,13 +128,14 @@ label{
 }
 
 .table{
-    min-height: 1400px;
+    margin-bottom: 50px;
 }
 
 .col{
     border: 1px solid black;
     width: 30%;
     min-height: 1200px;
+    float: left;
 }
 
 .col-title{
@@ -142,10 +143,6 @@ label{
     height: 40px;
     line-height: 40px;
     border-bottom: 1px solid black;
-}
-
-.fa-user{
-    font-size: 20px;
 }
 
 .plan{
@@ -172,7 +169,7 @@ label{
 }
 
 .row{
-    margin: 20px 0;
+    margin: 40px 0 30px;
 }
 
 .table .btn{ 
@@ -196,3 +193,33 @@ label{
     color: blue;
 }
 
+.inline{
+    display: inline-block;
+}
+
+li .inline{
+    width: 90%;
+}
+
+.far, .fas{
+    height: 100%;
+    padding-right: 10px;
+}
+
+.col-center{
+    margin: 0 5%;
+}
+
+.table2{
+    border: 1px solid black;
+    margin-bottom: 200px;
+}
+
+.text-bold{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img2 img,.half{
+    width: 50%;
+}
