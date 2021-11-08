@@ -31,6 +31,12 @@ a{
 header{
     background-color: lightblue;
     min-height: 800px;
+    margin-bottom: 200px;
+}
+
+main{
+    margin: 0 auto;
+    width: 70%;
 }
 
 nav{
@@ -64,12 +70,12 @@ nav{
 
 .btn a{
     padding: 5px 20px; 
-    margin-right: 20px;
-}
-
-.btn a{
     color: white;
     background-color: dodgerblue;
+}
+
+.clear-fix .btn a{
+    margin-right: 20px;
 }
 
 .section1{
@@ -92,7 +98,7 @@ nav{
     line-height: 30px;
 }
 
-i{
+.fa-arrow-down{
     margin-top: 30px;
     font-size: 40px;
     color: black;
@@ -102,4 +108,69 @@ i{
     position: absolute;
     left: 35%;
     width: 60%;
+}
+
+.title2{
+    font-size: 50px;
+}
+
+.checkbox{
+    margin: 50px 0 20px
+}
+
+label{
+    margin-right: 20px;
+}
+
+.table{
+    min-height: 1000px;
+}
+
+.col{
+    border: 1px solid black;
+    width: 30%;
+}
+
+.col-title{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid black;
+}
+
+.fa-user{
+    font-size: 20px;
+}
+
+.plan{
+    padding: 30px;
+}
+
+.title3{
+    font-size: 30px;
+}
+
+.number{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 15px 0 10px;
+}
+
+.text2{
+    font-size: 15px;
+}
+
+.plan-center{
+    margin: 50px 0;
+}
+
+.row{
+    margin: 20px 0;
+}
+
+.table .btn{ 
+    text-align: center;
+    margin: 0 auto;
+    font-size: 23px
 }
