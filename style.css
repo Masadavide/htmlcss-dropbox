@@ -38,7 +38,7 @@ header{
     margin-bottom: 200px;
 }
 
-main{
+.main-center{
     margin: 0 auto;
     width: 70%;
 }
@@ -56,7 +56,6 @@ nav{
 
 .logo{
     padding: 20px;
-    vertical-align: middle;
 }
 
  header .menu,header .menu2,header .btn{
@@ -79,10 +78,18 @@ nav{
     background-color: dodgerblue;
 }
 
-.btn2 a{
+#btn2 a{
     padding: 5px 20px;
     color: black;
     border: 1px solid black;
+    text-decoration: none;
+}
+
+#btn3 a{
+    background-color: white;
+    padding: 5px 20px;
+    color: black;
+    text-decoration: none;
 }
 
 .clear-fix .btn a{
@@ -171,7 +178,7 @@ label{
 }
 
 .plan-center{
-    margin: 50px 0;
+    margin: 50px 0 50px 25px;
 }
 
 .row{
@@ -190,7 +197,7 @@ label{
     padding-bottom: 30px;
 }
 
-.col .row a{
+.row a{
     color: blue;
     text-decoration: underline;
 }
@@ -208,7 +215,7 @@ li .inline{
 }
 
 .far, .fas{
-    height: 100%;
+    margin-left: -26px;
     padding-right: 10px;
 }
 
@@ -226,14 +233,113 @@ li .inline{
     font-weight: bold;
 }
 
-.img2{
-    margin-bottom: 200px;
+.margin-bottom{
+    margin-bottom: 150px;
 }
 
-.img2 img,.half{
+.margin-bottom img,.half{
     width: 50%;
 }
 
 .text-right{
-    line-height: 40px;
+    line-height: 30px;
+}
+
+.col-img-text{
+    width: 30%;
+    margin-top: 50px;
+}
+
+.col-img-text img{
+    width: 100%;
+}
+
+.col-img-text a{
+    text-decoration: underline;
+    color: black;
+}
+
+.table-cube{
+    width: 100%;
+    height: 500px;
+}
+
+.cube{
+    width: 30%;
+    background-color: red;
+}
+
+.mini-cube{
+    width: 50%;
+    height: 285px;
+    position: relative;
+}
+
+.mini-cube img{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+.mini-cube1{
+    background-color: darkseagreen;
+    border: 10px solid lightgray;
+}
+
+.mini-cube2{
+    background-color: maroon;
+}
+
+.mini-cube3{
+    background-color: lightskyblue;
+}
+
+.mini-cube4{
+    background-color: red;
+}
+
+.mini-cube5{
+    background-color: red;
+
+}
+
+.mini-cube6{
+    background-color: lightblue;
+}
+
+.mini-cube7{
+    background-color: blue;
+}
+
+.mini-cube8{
+    background-color: gold;
+}
+
+.cube-center{
+    width: calc(100% - 1141.78px);
+    background-color: whitesmoke;
+    height: calc(285px * 2);
+    padding: 50px;
+}
+
+.cube-center-underline{
+    width: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid lightgrey;
+}
+
+.cube-center-underline img{
+    width: 200px;
+}
+
+.background{
+    background-color: lightblue;
+    min-height: 850px;
+}
+
+#red{
+    color: maroon;
 }
