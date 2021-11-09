@@ -11,7 +11,7 @@ ul li{
 }
 
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif; 
 }
 
 .clear-fix::after{
@@ -52,6 +52,7 @@ nav{
     background-color: white;
     z-index: 1;
     border-bottom: 1px solid lightgray;
+    padding-right: 30px;
 }
 
 .logo{
@@ -282,13 +283,13 @@ label{
 }
 
 .cube{
-    width: 30%;
+    width: 30vw;
     background-color: red;
 }
 
 .mini-cube{
-    width: 50%;
-    height: 285px;
+    width: 15vw;
+    height: 15vw;
     position: relative;
 }
 
@@ -336,10 +337,11 @@ label{
 }
 
 .cube-center{
-    width: calc(100% - 1141.78px);
+    width: calc(100% - 60vw);
     background-color: whitesmoke;
-    height: calc(285px * 2);
+    height: 30vw;
     padding: 50px;
+    overflow: scroll;
 }
 
 .cube-center-underline{
@@ -354,7 +356,7 @@ label{
 
 .background{
     background-color: lightblue;
-    min-height: 850px;
+    min-height: calc(30vw + 250px);
 }
 
 #red{
