@@ -79,6 +79,12 @@ nav{
     background-color: dodgerblue;
 }
 
+.btn2 a{
+    padding: 5px 20px;
+    color: black;
+    border: 1px solid black;
+}
+
 .clear-fix .btn a{
     margin-right: 20px;
 }
@@ -100,7 +106,7 @@ nav{
 .text-left{
     width: 30%;
     margin: 50px 0 10px;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .fa-arrow-down{
@@ -184,7 +190,7 @@ label{
     padding-bottom: 30px;
 }
 
-.row a{
+.col .row a{
     color: blue;
     text-decoration: underline;
 }
@@ -220,6 +226,14 @@ li .inline{
     font-weight: bold;
 }
 
+.img2{
+    margin-bottom: 200px;
+}
+
 .img2 img,.half{
     width: 50%;
+}
+
+.text-right{
+    line-height: 40px;
 }
