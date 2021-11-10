@@ -374,7 +374,7 @@ label{
     padding: 40px 0;
 }
 
-.fa-chevron-down{
+.fa-chevron-down,.fa-chevron-up{
     float: right;
 }
 
@@ -384,6 +384,18 @@ label{
 }
 
 .faq:hover .faq-answer{
+    display: block;
+}
+
+.fa-chevron-up{
+    display: none;
+}
+
+.faq:hover .fa-chevron-down{
+    display: none;
+}
+
+.faq:hover .fa-chevron-up{
     display: block;
 }
 
@@ -414,3 +426,5 @@ footer a{
     padding-top: 30px;
     width: 10%;
 }
+
+.
