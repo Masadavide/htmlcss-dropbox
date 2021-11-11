@@ -34,7 +34,7 @@ a{
 
 header{
     background-color: lightblue;
-    min-height: 800px;
+    min-height: 700px;
     margin-bottom: 200px;
 }
 
@@ -59,28 +59,38 @@ nav{
     padding: 20px;
 }
 
- header .menu,header .menu2,header .btn{
-    height: 70px;
+.menu li > a,.menu2 li > a{
+    margin: 0 20px;
+    color: black;
     line-height: 70px;
 }
 
-.menu{
-    margin-right: calc(100vw - 1146.54px);
+.menu li,.menu2 li{
+    display: inline-block;
 }
 
-.menu a,.menu2 a{
-    margin: 0 20px;
-    color: black;
+.menu2 .btn{
+    display: inline-block;
 }
 
 .btn a{
     padding: 5px 20px; 
     color: white;
-    background-color: dodgerblue;
+    background-color: dodgerblue;   
+}
+
+nav li:hover{
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover{
     text-decoration: underline;
+}
+
+nav a:hover{
+    text-decoration: none;
 }
 
 .btn a:hover{
@@ -142,8 +152,9 @@ a:hover{
 
 .img img{
     position: absolute;
-    left: 35%;
     width: 60%;
+    top: 50%;
+    left: 50%;
 }
 
 main{
@@ -155,7 +166,7 @@ main{
 }
 
 .checkbox{
-    margin: 50px 0 40px
+    margin: 50px 0 40px   
 }
 
 label{
@@ -287,6 +298,10 @@ label{
     background-color: red;
 }
 
+.mini-cube:hover{
+    border: 10px solid lightgray;
+}
+
 .mini-cube{
     width: 15vw;
     height: 15vw;
@@ -304,7 +319,6 @@ label{
 
 .mini-cube1{
     background-color: darkseagreen;
-    border: 10px solid lightgray;
 }
 
 .mini-cube2{
@@ -399,6 +413,10 @@ label{
     display: block;
 }
 
+.faq:hover{
+    cursor: pointer;
+}
+
 footer{
     padding: 0 10%;
     background-color: black;
@@ -425,4 +443,8 @@ footer a{
     margin-top: 50px;
     padding-top: 30px;
     width: 10%;
+}
+
+#margin-top{
+    margin-top: 40px;
 }
